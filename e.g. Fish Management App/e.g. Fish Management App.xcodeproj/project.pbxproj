@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		8027E6B6307C7EFF00DC3C8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8027E6A0307C7EFE00DC3C8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8027E6A7307C7EFE00DC3C8D;
+			remoteInfo = "e.g. Fish Management App";
+		};
+		8027E6C0307C7EFF00DC3C8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8027E6A0307C7EFE00DC3C8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8027E6A7307C7EFE00DC3C8D;
+			remoteInfo = "e.g. Fish Management App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8027E6A8307C7EFE00DC3C8D /* e.g. Fish Management App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "e.g. Fish Management App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8027E6B5307C7EFF00DC3C8D /* e.g. Fish Management AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "e.g. Fish Management AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8027E6BF307C7EFF00DC3C8D /* e.g. Fish Management AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "e.g. Fish Management AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8027E6AA307C7EFE00DC3C8D /* e.g. Fish Management App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "e.g. Fish Management App";
+			sourceTree = "<group>";
+		};
+		8027E6B8307C7EFF00DC3C8D /* e.g. Fish Management AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "e.g. Fish Management AppTests";
+			sourceTree = "<group>";
+		};
+		8027E6C2307C7EFF00DC3C8D /* e.g. Fish Management AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "e.g. Fish Management AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8027E6A5307C7EFE00DC3C8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8027E6B2307C7EFF00DC3C8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8027E6BC307C7EFF00DC3C8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8027E69F307C7EFE00DC3C8D = {
+			isa = PBXGroup;
+			children = (
+				8027E6AA307C7EFE00DC3C8D /* e.g. Fish Management App */,
+				8027E6B8307C7EFF00DC3C8D /* e.g. Fish Management AppTests */,
+				8027E6C2307C7EFF00DC3C8D /* e.g. Fish Management AppUITests */,
+				8027E6A9307C7EFE00DC3C8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8027E6A9307C7EFE00DC3C8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8027E6A8307C7EFE00DC3C8D /* e.g. Fish Management App.app */,
+				8027E6B5307C7EFF00DC3C8D /* e.g. Fish Management AppTests.xctest */,
+				8027E6BF307C7EFF00DC3C8D /* e.g. Fish Management AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8027E6A7307C7EFE00DC3C8D /* e.g. Fish Management App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8027E6C9307C7EFF00DC3C8D /* Build configuration list for PBXNativeTarget "e.g. Fish Management App" */;
+			buildPhases = (
+				8027E6A4307C7EFE00DC3C8D /* Sources */,
+				8027E6A5307C7EFE00DC3C8D /* Frameworks */,
+				8027E6A6307C7EFE00DC3C8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8027E6AA307C7EFE00DC3C8D /* e.g. Fish Management App */,
+			);
+			name = "e.g. Fish Management App";
+			packageProductDependencies = (
+			);
+			productName = "e.g. Fish Management App";
+			productReference = 8027E6A8307C7EFE00DC3C8D /* e.g. Fish Management App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8027E6B4307C7EFF00DC3C8D /* e.g. Fish Management AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8027E6CC307C7EFF00DC3C8D /* Build configuration list for PBXNativeTarget "e.g. Fish Management AppTests" */;
+			buildPhases = (
+				8027E6B1307C7EFF00DC3C8D /* Sources */,
+				8027E6B2307C7EFF00DC3C8D /* Frameworks */,
+				8027E6B3307C7EFF00DC3C8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8027E6B7307C7EFF00DC3C8D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8027E6B8307C7EFF00DC3C8D /* e.g. Fish Management AppTests */,
+			);
+			name = "e.g. Fish Management AppTests";
+			packageProductDependencies = (
+			);
+			productName = "e.g. Fish Management AppTests";
+			productReference = 8027E6B5307C7EFF00DC3C8D /* e.g. Fish Management AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8027E6BE307C7EFF00DC3C8D /* e.g. Fish Management AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8027E6CF307C7EFF00DC3C8D /* Build configuration list for PBXNativeTarget "e.g. Fish Management AppUITests" */;
+			buildPhases = (
+				8027E6BB307C7EFF00DC3C8D /* Sources */,
+				8027E6BC307C7EFF00DC3C8D /* Frameworks */,
+				8027E6BD307C7EFF00DC3C8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8027E6C1307C7EFF00DC3C8D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8027E6C2307C7EFF00DC3C8D /* e.g. Fish Management AppUITests */,
+			);
+			name = "e.g. Fish Management AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "e.g. Fish Management AppUITests";
+			productReference = 8027E6BF307C7EFF00DC3C8D /* e.g. Fish Management AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8027E6A0307C7EFE00DC3C8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					8027E6A7307C7EFE00DC3C8D = {
+						CreatedOnToolsVersion = 26.3;
+					};
+					8027E6B4307C7EFF00DC3C8D = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = 8027E6A7307C7EFE00DC3C8D;
+					};
+					8027E6BE307C7EFF00DC3C8D = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = 8027E6A7307C7EFE00DC3C8D;
+					};
+				};
+			};
+			buildConfigurationList = 8027E6A3307C7EFE00DC3C8D /* Build configuration list for PBXProject "e.g. Fish Management App" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8027E69F307C7EFE00DC3C8D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8027E6A9307C7EFE00DC3C8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8027E6A7307C7EFE00DC3C8D /* e.g. Fish Management App */,
+				8027E6B4307C7EFF00DC3C8D /* e.g. Fish Management AppTests */,
+				8027E6BE307C7EFF00DC3C8D /* e.g. Fish Management AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8027E6A6307C7EFE00DC3C8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8027E6B3307C7EFF00DC3C8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8027E6BD307C7EFF00DC3C8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8027E6A4307C7EFE00DC3C8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8027E6B1307C7EFF00DC3C8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8027E6BB307C7EFF00DC3C8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8027E6B7307C7EFF00DC3C8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8027E6A7307C7EFE00DC3C8D /* e.g. Fish Management App */;
+			targetProxy = 8027E6B6307C7EFF00DC3C8D /* PBXContainerItemProxy */;
+		};
+		8027E6C1307C7EFF00DC3C8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8027E6A7307C7EFE00DC3C8D /* e.g. Fish Management App */;
+			targetProxy = 8027E6C0307C7EFF00DC3C8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8027E6C7307C7EFF00DC3C8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8027E6C8307C7EFF00DC3C8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8027E6CA307C7EFF00DC3C8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.e-g--Fish-Management-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8027E6CB307C7EFF00DC3C8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.e-g--Fish-Management-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8027E6CD307C7EFF00DC3C8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.e-g--Fish-Management-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/e.g. Fish Management App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/e.g. Fish Management App";
+			};
+			name = Debug;
+		};
+		8027E6CE307C7EFF00DC3C8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.e-g--Fish-Management-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/e.g. Fish Management App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/e.g. Fish Management App";
+			};
+			name = Release;
+		};
+		8027E6D0307C7EFF00DC3C8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.e-g--Fish-Management-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "e.g. Fish Management App";
+			};
+			name = Debug;
+		};
+		8027E6D1307C7EFF00DC3C8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.e-g--Fish-Management-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "e.g. Fish Management App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8027E6A3307C7EFE00DC3C8D /* Build configuration list for PBXProject "e.g. Fish Management App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8027E6C7307C7EFF00DC3C8D /* Debug */,
+				8027E6C8307C7EFF00DC3C8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8027E6C9307C7EFF00DC3C8D /* Build configuration list for PBXNativeTarget "e.g. Fish Management App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8027E6CA307C7EFF00DC3C8D /* Debug */,
+				8027E6CB307C7EFF00DC3C8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8027E6CC307C7EFF00DC3C8D /* Build configuration list for PBXNativeTarget "e.g. Fish Management AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8027E6CD307C7EFF00DC3C8D /* Debug */,
+				8027E6CE307C7EFF00DC3C8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8027E6CF307C7EFF00DC3C8D /* Build configuration list for PBXNativeTarget "e.g. Fish Management AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8027E6D0307C7EFF00DC3C8D /* Debug */,
+				8027E6D1307C7EFF00DC3C8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8027E6A0307C7EFE00DC3C8D /* Project object */;
+}
