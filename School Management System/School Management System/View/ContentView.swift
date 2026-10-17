@@ -9,10 +9,10 @@ struct ContentView: View {
                 .tabItem { Label("Students", systemImage: "person.3.fill") }
             SubjectsView()
                 .tabItem { Label("Subjects", systemImage: "book.fill") }
-            EnrollmentView()
-                .tabItem { Label("Enrollment", systemImage: "checklist") }
-            MarksView()
-                .tabItem { Label("Marks", systemImage: "square.and.pencil") }
+            TeachersView()
+                .tabItem { Label("Teachers", systemImage: "graduationcap.fill") }
+            RecordsView()
+                .tabItem { Label("Records", systemImage: "checklist") }
             StatisticsView()
                 .tabItem { Label("Statistics", systemImage: "chart.bar.fill") }
         }
@@ -23,4 +23,4 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
-}
+}                                                          

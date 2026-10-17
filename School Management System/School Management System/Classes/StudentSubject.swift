@@ -35,7 +35,7 @@ class StudentSubject: Identifiable {
 
     // Display
     func displayInfo() {
-        let markText = graded ? String(mark) : "chưa có"
+        let markText = graded ? String(mark) : "not graded"
         print("StudentSubject: Student=\(idStudent), Subject=\(idSubject), Mark=\(markText), Semester=\(semester)")
     }
 }
