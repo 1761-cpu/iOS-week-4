@@ -227,6 +227,78 @@ struct SectionTag: View {
     }
 }
 
+struct IDChip: View {
+    let text: String
+    var color: Color = .orange
+    var body: some View {
+        Text(text)
+            .font(.system(size: 11, weight: .bold, design: .monospaced))
+            .foregroundColor(color)
+            .padding(.horizontal, 6).padding(.vertical, 2)
+            .background(color.opacity(0.15), in: RoundedRectangle(cornerRadius: 5))
+    }
+}
+
+struct InfoRow: View {
+    let label: String
+    let value: String
+    var body: some View {
+        HStack {
+            Text(label).foregroundColor(.gray)
+            Spacer()
+            Text(value).fontWeight(.medium)
+        }
+        .font(.system(size: 13))
+    }
+}
+
+struct StudentCard: View {
+    @EnvironmentObject var manager: SchoolManager
+    let student: Student
+
+    var body: some View {
+        let gpa = manager.gpa(of: student.getID())
+        let count = manager.records(ofStudent: student.getID()).count
+        let credits = manager.totalCredits(ofStudent: student.getID())
+        let gpaColor: Color = (gpa ?? 0) >= SchoolManager.excellentGPA ? .orange
+                            : (gpa == nil ? .gray : .green)
+
+        VStack(alignment: .leading, spacing: 10) {
+            // Đầu thẻ
+            HStack(spacing: 12) {
+                Text(String(student.getName().prefix(1)))
+                    .font(.system(size: 20, weight: .bold))
+                    .foregroundColor(.orange)
+                    .frame(width: 44, height: 44)
+                    .background(Color.orange.opacity(0.15), in: RoundedRectangle(cornerRadius: 12))
+                VStack(alignment: .leading, spacing: 3) {
+                    Text(student.getName()).font(.headline)
+                    IDChip(text: student.getID())
+                }
+                Spacer()
+                if let g = gpa, g >= SchoolManager.excellentGPA {
+                    Image(systemName: "star.circle.fill")
+                        .font(.title2).foregroundColor(.orange)
+                }
+            }
+            // Thân thẻ
+            InfoRow(label: "Address", value: student.getAddress())
+            InfoRow(label: "Class of", value: String(student.getEntranceYear()))
+            InfoRow(label: "Enrolled", value: "\(count) subjects (\(credits) credits)")
+            Divider()
+            // Chân thẻ
+            VStack(alignment: .leading, spacing: 2) {
+                Text("CUMULATIVE GPA")
+                    .font(.system(size: 10, weight: .semibold))
+                    .foregroundColor(.gray)
+                Text(gpa.map { String(format: "%.2f", $0) } ?? "—")
+                    .font(.system(size: 22, weight: .bold, design: .monospaced))
+                    .foregroundColor(gpaColor)
+            }
+        }
+    }
+}
+
 // MARK: - Preview helper
 extension SchoolManager {
     static func preview() -> SchoolManager {
